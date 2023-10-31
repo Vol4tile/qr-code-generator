@@ -1,5 +1,10 @@
-# React + Vite
+# Qrcode generator
 
-Qrcode generator
+```bash
+cd blog
+npm run dev
+```
+
+
 
 
