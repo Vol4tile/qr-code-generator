@@ -4,8 +4,8 @@ import QRCodeStyling from "qr-code-styling";
 import ColorPicker from "./components/ColorPicker";
 import {BiImage} from "react-icons/bi"
 const qrCode = new QRCodeStyling({
-  width: 300,
-  height: 300,
+  width: 250,
+  height: 250,
 
   image: "/qr.svg",
   dotsOptions: {
