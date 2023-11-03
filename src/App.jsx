@@ -24,7 +24,7 @@ export default function App() {
   const [image, setImage] = useState(null); // Başlangıç rengi
   const [color, setColor] = useState("#000"); // Başlangıç rengi
   const [isDragging, setIsDragging] = useState(false);
-  const [url, setUrl] = useState("https://ilkan.vercel.app");
+  const [url, setUrl] = useState("https://richqrcoder.vercel.app");
   const [fileExt, setFileExt] = useState("png");
   const ref = useRef(null);
 
@@ -119,7 +119,7 @@ export default function App() {
   };
   return (
     <div className="App">
-      <h1>Qrcode Generator</h1>
+      <h1 className="name">Qrcode Generator</h1>
       <div ref={ref} />
       <div className="container">
         Url or Text 
